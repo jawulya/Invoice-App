@@ -1,0 +1,20 @@
+{
+  "name": "interviewed-angular",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "1.15.0",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "~4.13.4",
+    "lodash": "^4.17.11",
+    "normalizr": "^3.3.0",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^3.20.0",
+    "sqlite3": "latest"
+  },
+  "scripts": {
+    "dev": "concurrently \"node app.js\" \"npm start --prefix client\""
+  }
+}
